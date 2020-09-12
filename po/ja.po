@@ -1,0 +1,512 @@
+# English translations for piwiz package.
+# Copyright (C) 2020 Raspberry Pi Ltd
+# This file is distributed under the same license as the piwiz package.
+# Akira Ouchi <akkiesoft@marokun.net>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: piwiz 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-12 21:12+0900\n"
+"PO-Revision-Date: 2020-09-12 19:39+0900\n"
+"Last-Translator: Akira Ouchi <akkiesoft@marokun.net>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../src/piwiz.c:982 ../src/piwiz.c:1397
+msgid "Searching for networks - please wait..."
+msgstr "ネットワークを検索しています。少々お待ち下さい。"
+
+#: ../src/piwiz.c:1002
+msgid "Failed to connect to network."
+msgstr "ネットワークの接続に失敗しました。"
+
+#: ../src/piwiz.c:1123
+msgid "Reading update list - please wait..."
+msgstr "アップデートの一覧を読み込んでいます。少々お待ち下さい。"
+
+#: ../src/piwiz.c:1125
+msgid "Downloading updates - please wait..."
+msgstr "アップデートをダウンロードしています。少々お待ち下さい。"
+
+#: ../src/piwiz.c:1132
+msgid "Installing updates - please wait..."
+msgstr "アップデートをインストールしています。少々お待ち下さい。"
+
+#: ../src/piwiz.c:1134 ../src/piwiz.c:1262
+msgid "Installing languages - please wait..."
+msgstr "言語をインストールしています。少々お待ち下さい。"
+
+#: ../src/piwiz.c:1151
+#, c-format
+msgid ""
+"Error getting updates.\n"
+"%s"
+msgstr ""
+"アップデート取得中にエラーが発生しました。\n"
+"%s"
+
+#: ../src/piwiz.c:1160 ../src/piwiz.c:1197
+msgid "System is up to date"
+msgstr "システムは最新の状態です"
+
+#: ../src/piwiz.c:1178
+#, c-format
+msgid ""
+"Error comparing versions.\n"
+"%s"
+msgstr ""
+"バージョン比較中にエラーが発生しました。\n"
+"%s"
+
+#: ../src/piwiz.c:1191
+msgid "Getting updates - please wait..."
+msgstr "アップデートを取得しています。少々お待ち下さい。"
+
+#: ../src/piwiz.c:1210
+#, c-format
+msgid ""
+"Error installing languages.\n"
+"%s"
+msgstr ""
+"言語のインストール中にエラーが発生しました。\n"
+"%s"
+
+#: ../src/piwiz.c:1217 ../src/piwiz.c:1270 ../src/piwiz.c:1306
+msgid "Comparing versions - please wait..."
+msgstr "バージョンを比較しています。少々お待ち下さい。"
+
+#: ../src/piwiz.c:1232
+#, c-format
+msgid ""
+"Error finding languages.\n"
+"%s"
+msgstr ""
+"言語の検索中にエラーが発生しました。\n"
+"%s"
+
+#: ../src/piwiz.c:1287
+#, c-format
+msgid ""
+"Error checking for updates.\n"
+"%s"
+msgstr ""
+"アップデートの確認中にエラーが発生しました。\n"
+"%s"
+
+#: ../src/piwiz.c:1300
+msgid "Finding languages - please wait..."
+msgstr "言語を検索しています。少々お待ち下さい。"
+
+#: ../src/piwiz.c:1349 ../src/piwiz.c:1558
+msgid "Checking for updates - please wait..."
+msgstr "アップデートを確認しています。少々お待ち下さい。"
+
+#: ../src/piwiz.c:1358
+msgid "Could not sync time - unable to check for updates"
+msgstr "時刻を同期できないため、アップデートの確認ができません。"
+
+#: ../src/piwiz.c:1369 ../data/piwiz.ui.h:5
+msgid "_Next"
+msgstr "次へ (_N)"
+
+#: ../src/piwiz.c:1370
+msgid "_Back"
+msgstr "前へ (_B)"
+
+#: ../src/piwiz.c:1371 ../data/piwiz.ui.h:4
+msgid "_Skip"
+msgstr "スキップ (_S)"
+
+#: ../src/piwiz.c:1376 ../data/piwiz.ui.h:3
+msgid "_Cancel"
+msgstr "キャンセル (_C)"
+
+#: ../src/piwiz.c:1382
+msgid "_Later"
+msgstr "あとで (_L)"
+
+#: ../src/piwiz.c:1383
+msgid "_Restart"
+msgstr "再起動 (_R)"
+
+#: ../src/piwiz.c:1389
+msgid "_Done"
+msgstr "完了 (_D)"
+
+#: ../src/piwiz.c:1471
+msgid "Setting location - please wait..."
+msgstr "言語を設定しています。少々お待ち下さい。"
+
+#: ../src/piwiz.c:1483
+msgid "The two passwords entered do not match."
+msgstr "入力されたパスワードが一致しません。"
+
+#: ../src/piwiz.c:1520
+#, c-format
+msgid "Enter the password for the WiFi network \"%s\"."
+msgstr "WiFiネットワーク \"%s\" のパスワードを入力してください。"
+
+#: ../src/piwiz.c:1534 ../src/piwiz.c:1545
+msgid "Connecting to WiFi network - please wait..."
+msgstr "WiFiネットワークに接続しています。少々お待ち下さい。"
+
+#: ../src/piwiz.c:1537 ../src/piwiz.c:1548
+msgid "Could not connect to this network"
+msgstr "ネットワークに接続できませんでした。"
+
+#: ../src/piwiz.c:1563
+msgid "Synchronising clock - please wait..."
+msgstr "時刻を同期しています。少々お待ち下さい。"
+
+#: ../src/piwiz.c:1568
+msgid "No network connection found - unable to check for updates"
+msgstr "ネットワーク接続がないため、アップデートの確認ができません。"
+
+#: ../src/piwiz.c:1668
+#, c-format
+msgid "<span font_desc=\"10.0\">IP : %s</span>"
+msgstr "<span font_desc=\"10.0\">IP : %s</span>"
+
+#: ../src/piwiz.c:1809
+msgid "Set the country in which you are using your Pi"
+msgstr "Piを使用する国を選択してください"
+
+#: ../src/piwiz.c:1810
+msgid "Set the language in which applications should appear"
+msgstr "アプリケーションの表示に使用する言語を選択してください"
+
+#: ../src/piwiz.c:1811
+msgid "Set the closest city to your location"
+msgstr "近くの都市名を選択してください"
+
+#: ../src/dhcpcd-gtk/main.c:375
+msgid "Error creating new GIO Channel\n"
+msgstr "GIOチャネルの作成中にエラーが発生しました\n"
+
+#: ../src/dhcpcd-gtk/main.c:380
+msgid "Error creating watch\n"
+msgstr "時計の作成中にエラーが発生しました\n"
+
+#: ../src/dhcpcd-gtk/main.c:387
+msgid "g_try_malloc\n"
+msgstr "g_try_malloc\n"
+
+#: ../src/dhcpcd-gtk/main.c:415
+msgid "Connection to dhcpcd lost"
+msgstr "dhcpcdへの接続を失いました"
+
+#: ../src/dhcpcd-gtk/main.c:437
+#, c-format
+msgid "Connected to %s-%s"
+msgstr "Connected to %s-%s"
+
+#: ../src/dhcpcd-gtk/main.c:455
+msgid "dhcpcd connection lost"
+msgstr "dhcpcdの接続を失いました"
+
+#: ../src/dhcpcd-gtk/main.c:520
+msgid "Network event"
+msgstr "ネットワーク イベント"
+
+#: ../src/dhcpcd-gtk/main.c:561
+#, c-format
+msgid "dhcpcd WPA connection lost: %s"
+msgstr "dhcpcd WPAコネクションを失いました: %s"
+
+#: ../src/dhcpcd-gtk/main.c:617
+#, c-format
+msgid "%s: Received scan results"
+msgstr "%s: スキャン結果を受け取りました"
+
+#: ../src/dhcpcd-gtk/main.c:640
+msgid "New Access Point"
+msgstr "新しいアクセスポイント"
+
+#: ../src/dhcpcd-gtk/main.c:649
+msgid "New Access Points"
+msgstr "新しい"
+
+#: ../src/dhcpcd-gtk/main.c:738
+msgid "Connecting to dhcpcd ..."
+msgstr "dhcpcdに接続しています"
+
+#: ../src/dhcpcd-gtk/main.c:746 ../src/dhcpcd-gtk/main.c:777
+msgid "Connecting ..."
+msgstr "接続中"
+
+#: ../src/dhcpcd-gtk/wpa.c:76
+msgid "Failed to disconnect."
+msgstr "切断に失敗しました"
+
+#: ../src/dhcpcd-gtk/wpa.c:79
+msgid "Faile to reconfigure."
+msgstr "再設定に失敗しました"
+
+#: ../src/dhcpcd-gtk/wpa.c:82
+msgid "Failed to set key management."
+msgstr "キーマネジメントの設定に失敗しました"
+
+#: ../src/dhcpcd-gtk/wpa.c:85
+msgid "Failed to set password, probably too short."
+msgstr "パスワードの設定に失敗しました。おそらくパスワードが短すぎます"
+
+#: ../src/dhcpcd-gtk/wpa.c:88
+msgid "Failed to enable the network."
+msgstr "ネットワークの有効化に失敗しました"
+
+#: ../src/dhcpcd-gtk/wpa.c:91
+msgid "Failed to select the network."
+msgstr "ネットワークの選択に失敗しました"
+
+#: ../src/dhcpcd-gtk/wpa.c:94
+msgid "Failed to start association."
+msgstr "アソシエーションの開始に失敗しました"
+
+#: ../src/dhcpcd-gtk/wpa.c:97
+msgid ""
+"Failed to save wpa_supplicant configuration.\n"
+"\n"
+"You should add update_config=1 to /etc/wpa_supplicant.conf."
+msgstr ""
+"wpa_supplicant の設定の保存に失敗しました。\n"
+"\n"
+"手動で/etc/wpa_supplicant.conf に update_config=1 を追記する必要があります。"
+
+#: ../src/dhcpcd-gtk/wpa.c:103
+msgid "Error enabling network"
+msgstr "ネットワーク有効化中のエラー"
+
+#: ../src/dhcpcd-gtk/wpa.c:141
+msgid "Pre Shared Key:"
+msgstr "事前共有キー:"
+
+#: ../data/piwiz.ui.h:1
+msgid "_OK"
+msgstr "_OK"
+
+#: ../data/piwiz.ui.h:2
+msgid "Welcome to Raspberry Pi"
+msgstr "Raspberry Piへようこそ"
+
+#: ../data/piwiz.ui.h:6
+msgid ""
+"Welcome to the Raspberry Pi Desktop!\n"
+"\n"
+"Before you start using it, there are a few things to set up.\n"
+"\n"
+"Press 'Next' to get started. "
+msgstr ""
+"Raspberry Pi デスクトップへようこそ！\n"
+"\n"
+"使い始める前にいくつかの設定が必要です。\n"
+"'次へ' をクリックして設定を開始します。"
+
+#: ../data/piwiz.ui.h:11
+msgid "<span font_desc=\"10.0\"> </span>"
+msgstr "<span font_desc=\"10.0\"> </span>"
+
+#: ../data/piwiz.ui.h:12
+msgid "<b>Set Country</b>"
+msgstr "<b>国の設定</b>"
+
+#: ../data/piwiz.ui.h:13
+msgid ""
+"Enter the details of your location. This is used to set the language, time "
+"zone, keyboard and other international settings."
+msgstr ""
+"場所の詳細を入力してください。これらの設定は言語・タイムゾーン・キーボードや"
+"国際設定に使用されます。"
+
+#: ../data/piwiz.ui.h:14
+msgid "Country:"
+msgstr "国:"
+
+#: ../data/piwiz.ui.h:15
+msgid "Language:"
+msgstr "言語:"
+
+#: ../data/piwiz.ui.h:16
+msgid "Timezone:"
+msgstr "タイムゾーン:"
+
+#: ../data/piwiz.ui.h:17
+msgid "Use English language"
+msgstr "英語を使用する"
+
+#: ../data/piwiz.ui.h:18
+msgid "Use English instead of the default language for your country"
+msgstr "デフォルトの言語よりも英語を使用します"
+
+#: ../data/piwiz.ui.h:19
+msgid "Use US keyboard"
+msgstr "US配列キーボードを使用する"
+
+#: ../data/piwiz.ui.h:20
+msgid ""
+"Use the US keyboard layout instead of the default keyboard for your country"
+msgstr "デフォルトのキーボードよりもUS配列キーボードを使用します"
+
+#: ../data/piwiz.ui.h:21
+msgid "Press 'Next' when you have made your selection."
+msgstr "選択したら '次へ' を押します。"
+
+#: ../data/piwiz.ui.h:22
+msgid "<b>Change Password</b>"
+msgstr "<b>パスワードの変更</b>"
+
+#: ../data/piwiz.ui.h:23
+msgid ""
+"The default 'pi' user account currently has the password 'raspberry'. It is "
+"strongly recommended that you change this to a different password that only "
+"you know."
+msgstr ""
+"デフォルトの 'pi' ユーザーのパスワードは 'raspberry' に設定されています。パス"
+"ワードは変更することを強く推奨します。"
+
+#: ../data/piwiz.ui.h:24
+msgid "Enter new password:"
+msgstr "新しいパスワード:"
+
+#: ../data/piwiz.ui.h:25
+msgid "Confirm new password:"
+msgstr "新しいパスワード(確認用):"
+
+#: ../data/piwiz.ui.h:26
+msgid "Enter a new password"
+msgstr "新しいパスワードの入力します"
+
+#: ../data/piwiz.ui.h:27
+msgid "Enter the new password again"
+msgstr "新しいパスワードを再度入力します"
+
+#: ../data/piwiz.ui.h:28
+msgid "Hide characters"
+msgstr "文字列を隠す"
+
+#: ../data/piwiz.ui.h:29
+msgid "Show or hide the characters in your password"
+msgstr "パスワードの文字列を表示もしくは隠します"
+
+#: ../data/piwiz.ui.h:30
+msgid "Press 'Next' to activate your new password."
+msgstr "'次へ' を押して新しいパスワードを有効化します。"
+
+#: ../data/piwiz.ui.h:31
+msgid "<b>Set Up Screen</b>"
+msgstr "<b>画面の設定</b>"
+
+#: ../data/piwiz.ui.h:32
+msgid ""
+"The desktop should fill the entire screen.\n"
+"Tick the box below if your screen has a black border at the edges."
+msgstr ""
+"デスクトップは画面全体に表示されているはずです。\n"
+"画面の端に黒い線がある場合は、下のボックスにチェックしてください。"
+
+#: ../data/piwiz.ui.h:34
+msgid "This screen shows a black border around the desktop"
+msgstr "画面がデスクトップの周りに黒い線を表示しています"
+
+#: ../data/piwiz.ui.h:35
+msgid ""
+"Tick this box if you can see a black border between the edges of the screen "
+"and the desktop"
+msgstr ""
+"画面とデスクトップの間に黒い線が表示されている場合はこのボックスをチェックし"
+"ます。"
+
+#: ../data/piwiz.ui.h:36
+msgid ""
+"Press 'Next' to save your setting.\n"
+"\n"
+"The change will take effect when the Pi is restarted."
+msgstr ""
+"'次へ' を押して設定を保存します。\n"
+"\n"
+"設定は再起動後に反映されます。"
+
+#: ../data/piwiz.ui.h:39
+msgid "<b>Select WiFi Network</b>"
+msgstr "<b>WiFiネットワークの設定</b>"
+
+#: ../data/piwiz.ui.h:40
+msgid "Select your WiFi network from the list."
+msgstr "リストからWiFiネットワークを選択してください。"
+
+#: ../data/piwiz.ui.h:41
+msgid "Click the name of your network to select it"
+msgstr "選択するにはネットワークの名前をクリックします"
+
+#: ../data/piwiz.ui.h:42
+msgid "Press 'Next' to connect, or 'Skip' to continue without connecting."
+msgstr ""
+"接続するには '次へ' を押します。ネットワークを設定せずに設定を続けるには 'ス"
+"キップ' を押します。"
+
+#: ../data/piwiz.ui.h:43
+msgid "<b>Enter WiFi Password</b>"
+msgstr "<b>WiFiパスワードの入力</b>"
+
+#: ../data/piwiz.ui.h:44
+msgid "Enter the password for your WiFi network."
+msgstr "WiFiネットワークのパスワードを入力してください"
+
+#: ../data/piwiz.ui.h:45
+msgid "Password:"
+msgstr "パスワード:"
+
+#: ../data/piwiz.ui.h:46
+msgid "Enter the password for your network"
+msgstr "ネットワークのパスワードを入力します"
+
+#: ../data/piwiz.ui.h:47
+msgid "<b>Update Software</b>"
+msgstr "<b>ソフトウェアのアップデート</b>"
+
+#: ../data/piwiz.ui.h:48
+msgid ""
+"The operating system and applications will now be checked and updated if "
+"necessary. This may involve a large download.\n"
+"\n"
+"Press 'Next' to check and update software, or 'Skip' to continue without "
+"checking."
+msgstr ""
+"オペレーティングシステムとアプリケーションをチェックしてアップデートを実行し"
+"ます。場合によっては大量のダウンロードが必要になります。\n"
+"\n"
+"'次へ' を押すとアップデートを確認してインストールします。 'スキップ' を押すと"
+"アップデートの確認をせずに設定を続けます。"
+
+#: ../data/piwiz.ui.h:51
+msgid "<b>Setup Complete</b>"
+msgstr "<b>セットアップ完了</b>"
+
+#: ../data/piwiz.ui.h:52
+msgid "Your Raspberry Pi is now set up and ready to go."
+msgstr "Raspberry Piの設定が完了して使用する準備ができました。"
+
+#: ../data/piwiz.ui.h:53
+msgid ""
+"To run applications, click the raspberry icon in the top left corner of the "
+"screen to open the menu."
+msgstr ""
+"アプリケーションを実行するには、画面の左上の角にあるラズベリーアイコンをク"
+"リックしてメニューを開きます。"
+
+#: ../data/piwiz.ui.h:54
+msgid ""
+"Press 'Restart' to restart your Pi so the new settings will take effect."
+msgstr "新しい設定を反映させるため '再起動' を押してください。"
+
+#: ../data/piwiz.desktop.in.h:1
+msgid "Raspberry Pi First-Run Wizard"
+msgstr "Raspberry Pi 初回起動ウィザード"
+
+#: ../data/piwiz.desktop.in.h:2
+msgid "Configure Raspberry Pi system on first run"
+msgstr "初回起動時にRaspberry Piシステムの設定する"
